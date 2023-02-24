@@ -24,18 +24,22 @@
 }
 
 /* --- OPDRACHT 3 --- */
+/* --- ik heb hier ook een poging gedaan met flex-direction column, dan heb je de height niet nodig maar dan is de centered niet zo mooi in het midden --*/
 .opdracht-3 ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100%;
 }
+
 .opdracht-3 ul li:first-child {
     align-self: start;
 }
+
 .opdracht-3 ul li:nth-child(2) {
     align-self: center;
 }
+
 .opdracht-3 ul li:last-child {
     align-self: end;
 }
@@ -45,7 +49,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap:10px;
+    gap: 10px;
 }
 
 /* --- OPDRACHT 5 --- */
@@ -54,6 +58,7 @@
     justify-content: space-between;
     height: 100%;
 }
+
 .opdracht-5 ul {
     display: flex;
     flex-direction: column;
@@ -64,6 +69,7 @@
 .opdracht-5 ul:nth-child(2) {
     align-items: center;
 }
+
 .opdracht-5 ul:last-child {
     align-items: end;
 }
